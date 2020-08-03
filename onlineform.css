@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(209, 49, 103);
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(53, 2, 12);
+}
+
+label {
+  display: block;
+}
+label { 
+  margin-bottom: 20px;
+}
+
+#sexes, #sites, #do_you, #type, #many {
+  display: flex;
+  flex-direction: row;
+}
+#number {
+  margin-bottom: 20px;
+}
+#time {
+  margin-bottom: 20px;
+}
+#extra {
+  margin-bottom: 20px;
+}
+input {
+  background-image: linear-gradient(to right, #B085D6 #C144AA #5E2163);
+}
